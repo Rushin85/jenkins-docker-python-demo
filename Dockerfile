@@ -9,4 +9,4 @@ COPY requirements.txt requirements.txt
 # Setup the venv and install pyinstaller
 RUN python -m venv /tmp/venv && \
     . /tmp/venv/bin/activate && \
-    pip install -r requirements.txt --proxy http(s)://proxy:8080 --trusted-host pypi.
+    pip install -r requirements.txt --proxy http(s)://proxy:8080 --trusted-host pypi.python.org
