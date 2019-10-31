@@ -1,8 +1,8 @@
 # We nail the versions for reproducibility
 
 # Runtime requirements
-#numpy1.12.0
+numpy1.12.0
 
 # pytest
-#pytest3.0.5
-RUN PYTHONPATH=/usr/bin/python pip install -r requirements.txt
+pytest3.0.5
+
